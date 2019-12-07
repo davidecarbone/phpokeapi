@@ -696,7 +696,7 @@ class Client
             curl_close($ch);
 
             if ($http_code != 200) {
-                throw new NetworkException($url, $data);
+                throw NetworkException::create($url, $data);
             }
 
             return json_decode($data, true);
