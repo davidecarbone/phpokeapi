@@ -1,5 +1,5 @@
 {
-    "name": "davidecarbone/phpokeapi",
+    "name": "lmerotta/phpokeapi",
     "description": "A PHP7.1 Wrapper for PokéAPI, with cache and lazy-loading",
     "type": "library",
     "require": {
@@ -25,6 +25,7 @@
             "tests\\": "tests/"
         }
     },
+    "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^7.2"
     }
